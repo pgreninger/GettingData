@@ -6,11 +6,15 @@ This repository contains files for the Coursera [Getting and Cleaning Data]([htt
 The project is designed to illustrate the basics of combining, extracting and aggregating data from a human activity dataset provided by the instructor: [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI%20HAR%20Dataset.zip)
 
 # Files
-**run_analysis.R** - contains the R code to process the UCI HAR Dataset.
-**CodeBook.Md** - a description of the data including calculations used to summarize the data.
+|Filename           |Description |
+|-------------------|------------|
+|**run_analysis.R**|contains the R code to process the UCI HAR Dataset|
+|**CodeBook.md**|a description of the data including calculations used to summarize the data|
+|TidyAverages.txt|Output of data transformation in tidy format.|
 
 ### How to run the script
-From [R](http://www.r-project.org/) or [RStudio](http://www.rstudio.com/) console:
+From [R](http://www.r-project.org/) or [RStudio](http://www.rstudio.com/) console
+
 1. Set your working directory to the UCI HAR Dataset directory
 2. Enter `source("run_analysis.R")`
 
